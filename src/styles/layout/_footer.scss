@@ -1,0 +1,46 @@
+.footer {
+  background-color: black;
+}
+
+.footer__wrapper {
+  padding: 20px 0;
+}
+
+.social-links {
+  display: flex;
+  max-width: 450px;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  @media (max-width: 500px) {
+    max-width: 280px;
+  }
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+
+  &:hover {
+    background-color: rgb(0, 247, 255);
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+.mail {
+  background-image: url(../images/envelope.svg);
+}
+
+.vk {
+  background-image: url(../images/ico-vk.svg);
+}
+
+.github {
+  background-image: url(../images/github-logo.svg);
+}
